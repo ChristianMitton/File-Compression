@@ -1,0 +1,19 @@
+Test1: Gullivers travels
+
+For this test, six paragraphs from the story “Gullivers Travels” were written to a text file. This file was used to create a codebook, it was compressed, and it was also decompressed. Our program passed all these cases.
+
+——————————————————————————————————————————
+
+Test2: Nested folder
+
+For the nested folders, all files are concatenated into a temp file if the recursive flag is set and then the proper flag is operated on these files.  However, if no recursive flag is set, there are a few modifications to the path in order for the program to find the right file.  All files are outputted correctly if no recursive flag is set.
+——————————————————————————————————————————
+
+Test3: Test case given in assignment description
+
+For this case, we used the standard test case given in the assignment description. This case passed our codebook, compress, and decompress.
+——————————————————————————————————————————
+Test4: simpleRecurse
+
+For this case, we wanted to show that our recursion program works on a very simple test case where the directory is flat.  Our program will correctly build the codebook, compress, and decompress so long as there are no nested directories.
+
